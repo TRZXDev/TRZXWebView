@@ -9,5 +9,6 @@
 #import <AXWebViewController/AXWebViewController.h>
 
 @interface TRZXWebViewController : AXWebViewController
+@property (nonatomic, copy) NSString *webURL;
 
 @end

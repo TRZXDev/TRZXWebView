@@ -5,6 +5,8 @@ target 'TRZXWebView' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
 
+ pod 'AXWebViewController' #Web详情业务模块
+
   # Pods for TRZXWebView
 
 end

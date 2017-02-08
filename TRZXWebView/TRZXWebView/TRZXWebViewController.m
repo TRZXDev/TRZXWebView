@@ -16,6 +16,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    self.navigationType = AXWebViewControllerNavigationToolItem;
+    self.showsToolBar = YES;
+#if __IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_9_0
+    self.webView.allowsLinkPreview = YES;
+#endif
+
+    [self loadURL:[NSURL URLWithString:self.webURL]];
 
 
     // Do any additional setup after loading the view.

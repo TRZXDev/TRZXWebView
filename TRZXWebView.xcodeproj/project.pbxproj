@@ -10,12 +10,14 @@
 		1D06B7BFE2FBA0689F924DEF /* libPods-TRZXWebView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B855B9941E689E7DA14348B9 /* libPods-TRZXWebView.a */; };
 		71E4D8CA1E4AF9CF00091206 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E4D8C91E4AF9CF00091206 /* main.m */; };
 		71E4D8CD1E4AF9CF00091206 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E4D8CC1E4AF9CF00091206 /* AppDelegate.m */; };
-		71E4D8D01E4AF9CF00091206 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E4D8CF1E4AF9CF00091206 /* ViewController.m */; };
 		71E4D8D31E4AF9CF00091206 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71E4D8D11E4AF9CF00091206 /* Main.storyboard */; };
 		71E4D8D51E4AF9CF00091206 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71E4D8D41E4AF9CF00091206 /* Assets.xcassets */; };
 		71E4D8D81E4AF9CF00091206 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71E4D8D61E4AF9CF00091206 /* LaunchScreen.storyboard */; };
 		71E4D8E41E4AF9DA00091206 /* Target_TRZXWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E4D8E11E4AF9DA00091206 /* Target_TRZXWeb.m */; };
 		71E4D8E51E4AF9DA00091206 /* TRZXWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E4D8E31E4AF9DA00091206 /* TRZXWebViewController.m */; };
+		71E4D8EC1E4B02BD00091206 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E4D8E71E4B02BD00091206 /* TableViewController.m */; };
+		71E4D8ED1E4B02BD00091206 /* TabbarViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E4D8E91E4B02BD00091206 /* TabbarViewController1.m */; };
+		71E4D8EE1E4B02BD00091206 /* TabbarViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E4D8EB1E4B02BD00091206 /* TabbarViewController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,8 +27,6 @@
 		71E4D8C91E4AF9CF00091206 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		71E4D8CB1E4AF9CF00091206 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		71E4D8CC1E4AF9CF00091206 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		71E4D8CE1E4AF9CF00091206 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		71E4D8CF1E4AF9CF00091206 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		71E4D8D21E4AF9CF00091206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71E4D8D41E4AF9CF00091206 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71E4D8D71E4AF9CF00091206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +35,12 @@
 		71E4D8E11E4AF9DA00091206 /* Target_TRZXWeb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_TRZXWeb.m; sourceTree = "<group>"; };
 		71E4D8E21E4AF9DA00091206 /* TRZXWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXWebViewController.h; sourceTree = "<group>"; };
 		71E4D8E31E4AF9DA00091206 /* TRZXWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXWebViewController.m; sourceTree = "<group>"; };
+		71E4D8E61E4B02BD00091206 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		71E4D8E71E4B02BD00091206 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		71E4D8E81E4B02BD00091206 /* TabbarViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarViewController1.h; sourceTree = "<group>"; };
+		71E4D8E91E4B02BD00091206 /* TabbarViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarViewController1.m; sourceTree = "<group>"; };
+		71E4D8EA1E4B02BD00091206 /* TabbarViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarViewController2.h; sourceTree = "<group>"; };
+		71E4D8EB1E4B02BD00091206 /* TabbarViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarViewController2.m; sourceTree = "<group>"; };
 		B855B9941E689E7DA14348B9 /* libPods-TRZXWebView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TRZXWebView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -82,8 +88,12 @@
 				71E4D8DF1E4AF9DA00091206 /* TRZXWebView */,
 				71E4D8CB1E4AF9CF00091206 /* AppDelegate.h */,
 				71E4D8CC1E4AF9CF00091206 /* AppDelegate.m */,
-				71E4D8CE1E4AF9CF00091206 /* ViewController.h */,
-				71E4D8CF1E4AF9CF00091206 /* ViewController.m */,
+				71E4D8E61E4B02BD00091206 /* TableViewController.h */,
+				71E4D8E71E4B02BD00091206 /* TableViewController.m */,
+				71E4D8E81E4B02BD00091206 /* TabbarViewController1.h */,
+				71E4D8E91E4B02BD00091206 /* TabbarViewController1.m */,
+				71E4D8EA1E4B02BD00091206 /* TabbarViewController2.h */,
+				71E4D8EB1E4B02BD00091206 /* TabbarViewController2.m */,
 				71E4D8D11E4AF9CF00091206 /* Main.storyboard */,
 				71E4D8D41E4AF9CF00091206 /* Assets.xcassets */,
 				71E4D8D61E4AF9CF00091206 /* LaunchScreen.storyboard */,
@@ -244,10 +254,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71E4D8D01E4AF9CF00091206 /* ViewController.m in Sources */,
+				71E4D8ED1E4B02BD00091206 /* TabbarViewController1.m in Sources */,
 				71E4D8E51E4AF9DA00091206 /* TRZXWebViewController.m in Sources */,
 				71E4D8CD1E4AF9CF00091206 /* AppDelegate.m in Sources */,
+				71E4D8EE1E4B02BD00091206 /* TabbarViewController2.m in Sources */,
 				71E4D8CA1E4AF9CF00091206 /* main.m in Sources */,
+				71E4D8EC1E4B02BD00091206 /* TableViewController.m in Sources */,
 				71E4D8E41E4AF9DA00091206 /* Target_TRZXWeb.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,6 +383,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 487PQPPTGA;
 				INFOPLIST_FILE = TRZXWebView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mmwipo.com.TRZXWebView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -384,6 +397,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 487PQPPTGA;
 				INFOPLIST_FILE = TRZXWebView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mmwipo.com.TRZXWebView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +423,7 @@
 				71E4D8DE1E4AF9CF00091206 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

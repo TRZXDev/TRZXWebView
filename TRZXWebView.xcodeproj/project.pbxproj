@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D06B7BFE2FBA0689F924DEF /* libPods-TRZXWebView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B855B9941E689E7DA14348B9 /* libPods-TRZXWebView.a */; };
+		71E4D8CA1E4AF9CF00091206 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E4D8C91E4AF9CF00091206 /* main.m */; };
+		71E4D8CD1E4AF9CF00091206 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E4D8CC1E4AF9CF00091206 /* AppDelegate.m */; };
+		71E4D8D01E4AF9CF00091206 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E4D8CF1E4AF9CF00091206 /* ViewController.m */; };
+		71E4D8D31E4AF9CF00091206 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71E4D8D11E4AF9CF00091206 /* Main.storyboard */; };
+		71E4D8D51E4AF9CF00091206 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71E4D8D41E4AF9CF00091206 /* Assets.xcassets */; };
+		71E4D8D81E4AF9CF00091206 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71E4D8D61E4AF9CF00091206 /* LaunchScreen.storyboard */; };
+		71E4D8E41E4AF9DA00091206 /* Target_TRZXWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E4D8E11E4AF9DA00091206 /* Target_TRZXWeb.m */; };
+		71E4D8E51E4AF9DA00091206 /* TRZXWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E4D8E31E4AF9DA00091206 /* TRZXWebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		084381171294539345E6BB38 /* Pods-TRZXWebView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXWebView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXWebView/Pods-TRZXWebView.debug.xcconfig"; sourceTree = "<group>"; };
+		5FD600D69E3A7D0E595E421D /* Pods-TRZXWebView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXWebView.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXWebView/Pods-TRZXWebView.release.xcconfig"; sourceTree = "<group>"; };
+		71E4D8C51E4AF9CF00091206 /* TRZXWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRZXWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E4D8C91E4AF9CF00091206 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71E4D8CB1E4AF9CF00091206 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71E4D8CC1E4AF9CF00091206 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71E4D8CE1E4AF9CF00091206 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		71E4D8CF1E4AF9CF00091206 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		71E4D8D21E4AF9CF00091206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71E4D8D41E4AF9CF00091206 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71E4D8D71E4AF9CF00091206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71E4D8D91E4AF9CF00091206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71E4D8E01E4AF9DA00091206 /* Target_TRZXWeb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_TRZXWeb.h; sourceTree = "<group>"; };
+		71E4D8E11E4AF9DA00091206 /* Target_TRZXWeb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_TRZXWeb.m; sourceTree = "<group>"; };
+		71E4D8E21E4AF9DA00091206 /* TRZXWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXWebViewController.h; sourceTree = "<group>"; };
+		71E4D8E31E4AF9DA00091206 /* TRZXWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXWebViewController.m; sourceTree = "<group>"; };
+		B855B9941E689E7DA14348B9 /* libPods-TRZXWebView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TRZXWebView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71E4D8C21E4AF9CF00091206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D06B7BFE2FBA0689F924DEF /* libPods-TRZXWebView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4088AE2917C4B57996C2797E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B855B9941E689E7DA14348B9 /* libPods-TRZXWebView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71E4D8BC1E4AF9CF00091206 = {
+			isa = PBXGroup;
+			children = (
+				71E4D8C71E4AF9CF00091206 /* TRZXWebView */,
+				71E4D8C61E4AF9CF00091206 /* Products */,
+				7BFACEEC03BB827071D6FD5F /* Pods */,
+				4088AE2917C4B57996C2797E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		71E4D8C61E4AF9CF00091206 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71E4D8C51E4AF9CF00091206 /* TRZXWebView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71E4D8C71E4AF9CF00091206 /* TRZXWebView */ = {
+			isa = PBXGroup;
+			children = (
+				71E4D8DF1E4AF9DA00091206 /* TRZXWebView */,
+				71E4D8CB1E4AF9CF00091206 /* AppDelegate.h */,
+				71E4D8CC1E4AF9CF00091206 /* AppDelegate.m */,
+				71E4D8CE1E4AF9CF00091206 /* ViewController.h */,
+				71E4D8CF1E4AF9CF00091206 /* ViewController.m */,
+				71E4D8D11E4AF9CF00091206 /* Main.storyboard */,
+				71E4D8D41E4AF9CF00091206 /* Assets.xcassets */,
+				71E4D8D61E4AF9CF00091206 /* LaunchScreen.storyboard */,
+				71E4D8D91E4AF9CF00091206 /* Info.plist */,
+				71E4D8C81E4AF9CF00091206 /* Supporting Files */,
+			);
+			path = TRZXWebView;
+			sourceTree = "<group>";
+		};
+		71E4D8C81E4AF9CF00091206 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71E4D8C91E4AF9CF00091206 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71E4D8DF1E4AF9DA00091206 /* TRZXWebView */ = {
+			isa = PBXGroup;
+			children = (
+				71E4D8E01E4AF9DA00091206 /* Target_TRZXWeb.h */,
+				71E4D8E11E4AF9DA00091206 /* Target_TRZXWeb.m */,
+				71E4D8E21E4AF9DA00091206 /* TRZXWebViewController.h */,
+				71E4D8E31E4AF9DA00091206 /* TRZXWebViewController.m */,
+			);
+			path = TRZXWebView;
+			sourceTree = "<group>";
+		};
+		7BFACEEC03BB827071D6FD5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				084381171294539345E6BB38 /* Pods-TRZXWebView.debug.xcconfig */,
+				5FD600D69E3A7D0E595E421D /* Pods-TRZXWebView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71E4D8C41E4AF9CF00091206 /* TRZXWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71E4D8DC1E4AF9CF00091206 /* Build configuration list for PBXNativeTarget "TRZXWebView" */;
+			buildPhases = (
+				79353637EC6BC1AE2700588F /* [CP] Check Pods Manifest.lock */,
+				71E4D8C11E4AF9CF00091206 /* Sources */,
+				71E4D8C21E4AF9CF00091206 /* Frameworks */,
+				71E4D8C31E4AF9CF00091206 /* Resources */,
+				65CBA281E66B96BA372C813A /* [CP] Embed Pods Frameworks */,
+				621E96566E72323C610B97D7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRZXWebView;
+			productName = TRZXWebView;
+			productReference = 71E4D8C51E4AF9CF00091206 /* TRZXWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71E4D8BD1E4AF9CF00091206 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = TRZX;
+				TargetAttributes = {
+					71E4D8C41E4AF9CF00091206 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 487PQPPTGA;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 71E4D8C01E4AF9CF00091206 /* Build configuration list for PBXProject "TRZXWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71E4D8BC1E4AF9CF00091206;
+			productRefGroup = 71E4D8C61E4AF9CF00091206 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71E4D8C41E4AF9CF00091206 /* TRZXWebView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71E4D8C31E4AF9CF00091206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E4D8D81E4AF9CF00091206 /* LaunchScreen.storyboard in Resources */,
+				71E4D8D51E4AF9CF00091206 /* Assets.xcassets in Resources */,
+				71E4D8D31E4AF9CF00091206 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		621E96566E72323C610B97D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXWebView/Pods-TRZXWebView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65CBA281E66B96BA372C813A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXWebView/Pods-TRZXWebView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79353637EC6BC1AE2700588F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71E4D8C11E4AF9CF00091206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E4D8D01E4AF9CF00091206 /* ViewController.m in Sources */,
+				71E4D8E51E4AF9DA00091206 /* TRZXWebViewController.m in Sources */,
+				71E4D8CD1E4AF9CF00091206 /* AppDelegate.m in Sources */,
+				71E4D8CA1E4AF9CF00091206 /* main.m in Sources */,
+				71E4D8E41E4AF9DA00091206 /* Target_TRZXWeb.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		71E4D8D11E4AF9CF00091206 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71E4D8D21E4AF9CF00091206 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71E4D8D61E4AF9CF00091206 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71E4D8D71E4AF9CF00091206 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71E4D8DA1E4AF9CF00091206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71E4D8DB1E4AF9CF00091206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71E4D8DD1E4AF9CF00091206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 084381171294539345E6BB38 /* Pods-TRZXWebView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 487PQPPTGA;
+				INFOPLIST_FILE = TRZXWebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mmwipo.com.TRZXWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		71E4D8DE1E4AF9CF00091206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FD600D69E3A7D0E595E421D /* Pods-TRZXWebView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 487PQPPTGA;
+				INFOPLIST_FILE = TRZXWebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mmwipo.com.TRZXWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71E4D8C01E4AF9CF00091206 /* Build configuration list for PBXProject "TRZXWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E4D8DA1E4AF9CF00091206 /* Debug */,
+				71E4D8DB1E4AF9CF00091206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71E4D8DC1E4AF9CF00091206 /* Build configuration list for PBXNativeTarget "TRZXWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E4D8DD1E4AF9CF00091206 /* Debug */,
+				71E4D8DE1E4AF9CF00091206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71E4D8BD1E4AF9CF00091206 /* Project object */;
+}

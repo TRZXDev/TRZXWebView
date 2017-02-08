@@ -38,7 +38,7 @@
         {
             AXWebViewController *webVC = [[AXWebViewController alloc] initWithAddress:@"http://test.mmwipo.com/newyear/2017?2=2&fromType=qq"];
             webVC.navigationType = AXWebViewControllerNavigationToolItem;
-            webVC.showsToolBar = YES;
+            webVC.showsToolBar = NO;
 #if __IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_9_0
             webVC.webView.allowsLinkPreview = YES;
 #endif

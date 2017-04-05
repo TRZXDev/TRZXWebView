@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = 'TRZXWebView'
   s.summary      = 'Asynchronous image loading framework.'
-  s.version      = '0.0.4'
+  s.version      = '0.0.5'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors      = { 'fpli' => '952241861@qq.com' }
   s.homepage     = 'https://github.com/TRZXDev/TRZXWebView'
@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   
   s.requires_arc = true
   s.source_files = 'TRZXWebView/TRZXWebView/*.{h,m}'
-  s.dependency "AXWebViewController"
+  s.dependency "AXWebViewController", '~> 0.1.10' #Web详情业务模块
   
 end

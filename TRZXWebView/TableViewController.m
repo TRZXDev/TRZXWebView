@@ -50,7 +50,7 @@
 
 
             TRZXWebViewController *webVC = [[TRZXWebViewController alloc] init];
-            webVC.webURL = @"http://www.baidu.com";
+            webVC.webURL = @"https://www.baidu.com/";
             [self.navigationController pushViewController:webVC animated:YES];
 
 
